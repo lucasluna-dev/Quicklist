@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-color: #0C0C0D;
+    --title-color: #FBF9FE;
+    --label-color: #AFABB6;
+}
+
+body{
+    background-color: var(--body-color);
+    font-family:"Poppins", sans-serif ;
+}
+

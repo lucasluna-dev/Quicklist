@@ -1,0 +1,27 @@
+.form-list{
+    width: 100%;
+}
+
+section .form-main{
+    margin: 0 auto;
+    width: 720px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-list form{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    
+    
+}
+
+.form-list input{
+    outline: none;
+}
+
+.form-list p{
+    color: var(--label-color);
+}

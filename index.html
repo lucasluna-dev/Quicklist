@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras - Luna List</title>
+    <link rel="stylesheet" href="./styles/index.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <div class="title-header">
+                <h1>Lista de Compras</h1>
+            </div><!--img-title-header-->
+        </header>
+
+        <section class="form-list">
+            <div class="form-main">
+                <form>
+                    <div class="input-item">
+                        <p>item</p>
+                        <input type="text" id="item" name="item">
+                    </div><!--input-item-->
+
+                    <div class="input-number">
+                        <p>Number</p>
+                        <input type="number" id="quantity" name="quantity" min="1" max="500">
+                    </div><!--input-number-->
+
+                    <div class="input-select">
+                        <p>Categoria</p>
+                        <select id="Categoria">
+                            <option value="" disabled selected> Selecione uma Categoria</option>
+                            <option>Comida</option>
+                            <option>Eletronico</option>
+                        </select>
+                </form>
+            </div><!--input-select-->
+        </section>
+
+
+        <script src="./Scripts.js"></script>
+    </body>
+</html>
