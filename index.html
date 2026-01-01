@@ -33,19 +33,39 @@
                         <p>Categoria</p>
                         <select id="Categoria">
                             <option value="" disabled selected>Selecione</option>
-                            <option>Comida</option>
-                            <option>Eletrônico</option>
+                            <option value="Mercado">Fruta</option>
+                            <option value="Lanchonete">Padaria</option>
+                            <option value="Legume">Legume</option>
+                            <option value="Carne">Carne</option>
+                            <option value="Carne">Bebida</option>
+                            <option value="Biscoito">Biscoito</option>
+                            <option value="Chocolate">Bebida</option>
                         </select>
                     </div><!--input-select-->
 
                     <div class="submit-form">
-                        <button type="submit">+</button>
-                    </div><!--input-number-->
+                        <button type="submit" id="submit" name="submit">+</button>
+                    </div><!--input-submit-->
                 </form>
-
-                 
-            
         </section>
+
+        <section class="list">
+            <div class="item-list">
+                <div class="name-item">
+                    <form>
+                        <input type="checkbox" id="check" name="check" value="check">
+                    </form>
+                    <div class="Descricao-item">
+                        <h3>Maçã</h3>
+                        <label>2 unidades</label>
+                    </div><!--Descricao-item-->
+                </div><!--name-item-->
+                <div class="categoria-item">
+                    <span>Fruta</span>
+                    <div class="icon-opcoes"><img src="./assets/icon-opcoes.svg"></div>
+                </div><!--categoria-item-->
+            </div><!--item-list-->
+        </section><!--list-->
 
 
         <script src="./Scripts.js"></script>
