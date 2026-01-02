@@ -21,20 +21,20 @@
                 <form>
                     <div class="input-item">
                         <p>Item</p>
-                        <input type="text" id="item" name="item">
+                        <input type="text" id="item" name="item" required>
                     </div><!--input-item-->
 
                     <div class="input-form">
                         <p>Número</p>
-                        <input type="number" id="quantity" name="quantity" min="1" max="500">
+                        <input type="number" id="quantity" name="quantity" min="1" max="500" required>
                     </div><!--input-number-->
 
                     <div class="input-categoria">
                         <p>Categoria</p>
-                        <select id="Categoria">
+                        <select name="Categoria" id="Categoria" required>
                             <option value="" disabled selected>Selecione</option>
-                            <option value="Mercado">Fruta</option>
-                            <option value="Lanchonete">Padaria</option>
+                            <option value="Fruta">Fruta</option>
+                            <option value="Padaria">Padaria</option>
                             <option value="Legume">Legume</option>
                             <option value="Carne">Carne</option>
                             <option value="Carne">Bebida</option>
