@@ -49,6 +49,7 @@ section .categoria-item{
 }
 
 .icon-opcoes img{
-
+    width: 16px;
+    height: 16px;
     cursor: pointer;
 }

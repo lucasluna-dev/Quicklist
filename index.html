@@ -37,9 +37,6 @@
                             <option value="Padaria">Padaria</option>
                             <option value="Legume">Legume</option>
                             <option value="Carne">Carne</option>
-                            <option value="Carne">Bebida</option>
-                            <option value="Biscoito">Biscoito</option>
-                            <option value="Chocolate">Bebida</option>
                         </select>
                     </div><!--input-select-->
 
@@ -53,6 +50,21 @@
            
         </section><!--list-->
 
+            <div class="item-list" id="item-list" data-id="${value.id}">
+                <div class="name-item" id="name-item">
+                    <form>
+                        <input type="checkbox" id="check" name="check" value="check">
+                    </form>
+                    <div class="Descricao-item">
+                        <h3>Pão</h3>
+                        <label>6 unidade</label>
+                    </div>
+                </div>
+                <div class="categoria-item">
+                    <span class="spanCategoria"><img src="./assets/padaria.svg" id="spanCategoria"></span>
+                    <div class="remove-svg" id="remove-svg"><img src="./assets/remove.svg"></div>
+                </div>
+            </div>
 
         <script src="./Scripts.js"></script>
     </body>
