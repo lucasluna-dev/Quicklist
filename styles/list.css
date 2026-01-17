@@ -48,7 +48,8 @@ section .categoria-item{
     align-items: center;
 }
 
-.icon-opcoes img{
-
+.remove-svg img{
+    width: 16px;
+    height: 16px;
     cursor: pointer;
 }
